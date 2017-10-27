@@ -1,0 +1,1719 @@
+{
+  "name": "Income Psychic",
+  "created": "2017-10-26T14:55:20.454Z",
+  "intents": [
+    {
+      "intent": "bye",
+      "created": "2017-10-26T16:19:33.847Z",
+      "updated": "2017-10-26T17:38:38.129Z",
+      "examples": [
+        {
+          "text": "goodbye",
+          "created": "2017-10-26T16:19:35.904Z",
+          "updated": "2017-10-26T16:19:35.904Z"
+        },
+        {
+          "text": "good bye",
+          "created": "2017-10-26T16:19:37.112Z",
+          "updated": "2017-10-26T16:19:37.112Z"
+        },
+        {
+          "text": "bye",
+          "created": "2017-10-26T16:19:39.074Z",
+          "updated": "2017-10-26T16:19:39.074Z"
+        },
+        {
+          "text": "bye bye",
+          "created": "2017-10-26T16:19:40.286Z",
+          "updated": "2017-10-26T16:19:40.286Z"
+        },
+        {
+          "text": "see ya",
+          "created": "2017-10-26T16:19:41.424Z",
+          "updated": "2017-10-26T16:19:41.424Z"
+        },
+        {
+          "text": "later",
+          "created": "2017-10-26T16:19:42.390Z",
+          "updated": "2017-10-26T16:19:42.390Z"
+        },
+        {
+          "text": "ez",
+          "created": "2017-10-26T16:19:45.028Z",
+          "updated": "2017-10-26T16:19:45.028Z"
+        },
+        {
+          "text": "1",
+          "created": "2017-10-26T17:38:38.129Z",
+          "updated": "2017-10-26T17:38:38.129Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "hello",
+      "created": "2017-10-26T14:55:54.074Z",
+      "updated": "2017-10-26T16:17:00.672Z",
+      "examples": [
+        {
+          "text": "age",
+          "created": "2017-10-26T15:27:51.654Z",
+          "updated": "2017-10-26T15:27:51.654Z"
+        },
+        {
+          "text": "hello",
+          "created": "2017-10-26T15:29:09.663Z",
+          "updated": "2017-10-26T15:29:09.663Z"
+        },
+        {
+          "text": "whats up",
+          "created": "2017-10-26T15:29:11.527Z",
+          "updated": "2017-10-26T15:29:11.527Z"
+        },
+        {
+          "text": "howdy",
+          "created": "2017-10-26T15:29:14.119Z",
+          "updated": "2017-10-26T15:29:14.119Z"
+        },
+        {
+          "text": "good morning",
+          "created": "2017-10-26T15:29:17.947Z",
+          "updated": "2017-10-26T15:29:17.947Z"
+        },
+        {
+          "text": "good evening",
+          "created": "2017-10-26T15:29:20.491Z",
+          "updated": "2017-10-26T15:29:20.491Z"
+        },
+        {
+          "text": "whats good",
+          "created": "2017-10-26T15:29:24.931Z",
+          "updated": "2017-10-26T15:29:24.931Z"
+        },
+        {
+          "text": "whats  happening",
+          "created": "2017-10-26T15:29:45.898Z",
+          "updated": "2017-10-26T15:29:45.898Z"
+        },
+        {
+          "text": "top of the morning to ya",
+          "created": "2017-10-26T15:30:18.885Z",
+          "updated": "2017-10-26T15:30:18.885Z"
+        },
+        {
+          "text": "hi",
+          "created": "2017-10-26T16:17:00.672Z",
+          "updated": "2017-10-26T16:17:00.672Z"
+        }
+      ],
+      "description": null
+    }
+  ],
+  "updated": "2017-10-27T19:05:22.445Z",
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [
+        
+      ],
+      "created": "2017-10-26T18:28:07.856Z",
+      "updated": "2017-10-26T18:28:07.856Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "names",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Atmiya",
+          "created": "2017-10-26T18:00:44.361Z",
+          "updated": "2017-10-26T18:00:44.361Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Imran",
+          "created": "2017-10-26T18:00:44.361Z",
+          "updated": "2017-10-26T18:00:44.361Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "All names",
+          "created": "2017-10-26T18:01:14.440Z",
+          "updated": "2017-10-26T18:01:14.440Z",
+          "metadata": null,
+          "patterns": [
+            "[A-Z]"
+          ]
+        }
+      ],
+      "created": "2017-10-26T17:55:54.713Z",
+      "updated": "2017-10-26T18:01:14.440Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": [
+        
+      ],
+      "created": "2017-10-26T16:31:27.443Z",
+      "updated": "2017-10-26T16:31:27.443Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "male",
+          "created": "2017-10-26T17:16:30.726Z",
+          "updated": "2017-10-26T17:33:40.060Z",
+          "metadata": null,
+          "synonyms": [
+            "boy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "female",
+          "created": "2017-10-26T17:16:32.298Z",
+          "updated": "2017-10-26T17:34:05.620Z",
+          "metadata": null,
+          "synonyms": [
+            "girl"
+          ]
+        }
+      ],
+      "created": "2017-10-26T17:16:27.226Z",
+      "updated": "2017-10-26T17:34:05.620Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Countries",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "United-States",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cambodia",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "England",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Puerto-Rico",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Canada",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Germany",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Outlying-US(Guam-USVI-etc)",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "India",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Japan",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Greece",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "South",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "China",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cuba",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Iran",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Honduras",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Philippines",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Italy",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Poland",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jamaica",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vietnam",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mexico",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Portugal",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ireland",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "France",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dominican-Republic",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Laos",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ecuador",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Taiwan",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Haiti",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Columbia",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hungary",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guatemala",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nicaragua",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Scotland",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Thailand",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yugoslavia",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "El-Salvador",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Trinadad&Tobago",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Peru",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hong",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Holand-Netherlands",
+          "created": "2017-10-26T17:41:10.818Z",
+          "updated": "2017-10-26T17:41:10.818Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        }
+      ],
+      "created": "2017-10-26T17:41:10.808Z",
+      "updated": "2017-10-26T17:41:10.808Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "workclass",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Self-emp-not-inc",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Self-emp-inc",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Federal-gov",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Local-gov",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "State-gov",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Without-pay",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Never-worked.",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Private",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        }
+      ],
+      "created": "2017-10-27T00:08:17.495Z",
+      "updated": "2017-10-27T00:08:17.495Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "education",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Some-college",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "11th",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HS-grad",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prof-school",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Assoc-acdm",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Assoc-voc",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "9th",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "7th-8th",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "12th",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Masters",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1st-4th",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "10th",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Doctorate",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5th-6th",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Preschool",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bachelors",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        }
+      ],
+      "created": "2017-10-26T19:14:20.226Z",
+      "updated": "2017-10-26T19:14:24.314Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "race",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Indian",
+          "created": "2017-10-27T19:05:22.445Z",
+          "updated": "2017-10-27T19:05:22.445Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Asian-Pac-Islander",
+          "created": "2017-10-27T19:05:22.445Z",
+          "updated": "2017-10-27T19:05:22.445Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Amer-Indian-Eskimo",
+          "created": "2017-10-27T19:05:22.445Z",
+          "updated": "2017-10-27T19:05:22.445Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Other",
+          "created": "2017-10-27T19:05:22.445Z",
+          "updated": "2017-10-27T19:05:22.445Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Black.",
+          "created": "2017-10-27T19:05:22.445Z",
+          "updated": "2017-10-27T19:05:22.445Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "White",
+          "created": "2017-10-27T19:05:22.445Z",
+          "updated": "2017-10-27T19:05:22.445Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        }
+      ],
+      "created": "2017-10-26T18:06:24.235Z",
+      "updated": "2017-10-27T19:05:22.445Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "occupation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Machine-op-inspct",
+          "created": "2017-10-26T17:12:03.797Z",
+          "updated": "2017-10-26T17:12:03.797Z",
+          "metadata": null,
+          "synonyms": [
+            "factory worker"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Transport-moving",
+          "created": "2017-10-26T17:12:43.350Z",
+          "updated": "2017-10-26T17:12:43.350Z",
+          "metadata": null,
+          "synonyms": [
+            "trucker",
+            "taxi driver",
+            "uber"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Adm-clerical",
+          "created": "2017-10-26T17:12:15.288Z",
+          "updated": "2017-10-26T17:12:15.288Z",
+          "metadata": null,
+          "synonyms": [
+            "admin",
+            "receptionist"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tech-support",
+          "created": "2017-10-26T17:11:11.940Z",
+          "updated": "2017-10-26T17:11:11.940Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Craft-repair",
+          "created": "2017-10-26T17:11:11.940Z",
+          "updated": "2017-10-26T17:11:11.940Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Priv-house-serv",
+          "created": "2017-10-26T17:12:54.401Z",
+          "updated": "2017-10-26T17:12:54.401Z",
+          "metadata": null,
+          "synonyms": [
+            "housecleaning",
+            "maid"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Protective-serv",
+          "created": "2017-10-26T17:13:14.218Z",
+          "updated": "2017-10-26T17:13:14.218Z",
+          "metadata": null,
+          "synonyms": [
+            "cop",
+            "police",
+            "security"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Other-service",
+          "created": "2017-10-26T17:11:11.940Z",
+          "updated": "2017-10-26T17:11:11.940Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sales",
+          "created": "2017-10-26T17:11:11.940Z",
+          "updated": "2017-10-26T17:11:11.940Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Handlers-cleaners",
+          "created": "2017-10-26T17:11:44.378Z",
+          "updated": "2017-10-26T17:11:49.049Z",
+          "metadata": null,
+          "synonyms": [
+            "labourer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prof-specialty",
+          "created": "2017-10-26T17:11:37.706Z",
+          "updated": "2017-10-26T17:11:37.706Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Farming-fishing",
+          "created": "2017-10-26T17:12:22.333Z",
+          "updated": "2017-10-26T17:12:22.333Z",
+          "metadata": null,
+          "synonyms": [
+            "farmer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Exec-managerial",
+          "created": "2017-10-26T17:11:16.904Z",
+          "updated": "2017-10-26T17:11:29.235Z",
+          "metadata": null,
+          "synonyms": [
+            "executive",
+            "manager",
+            "ceo"
+          ]
+        }
+      ],
+      "created": "2017-10-26T16:59:37.305Z",
+      "updated": "2017-10-26T17:13:14.218Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    },
+    {
+      "entity": "relationship",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Own-child",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Husband",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Not-in-family",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Other-relative",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Unmarried",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wife",
+          "created": "2017-10-27T00:08:17.509Z",
+          "updated": "2017-10-27T00:08:17.509Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        }
+      ],
+      "created": "2017-10-27T00:08:17.495Z",
+      "updated": "2017-10-27T00:08:17.495Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "hours-per-week",
+      "values": [
+        
+      ],
+      "created": "2017-10-26T19:08:09.171Z",
+      "updated": "2017-10-26T19:08:09.171Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "marital-status",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Divorced",
+          "created": "2017-10-27T13:55:25.729Z",
+          "updated": "2017-10-27T13:55:25.729Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Never-married",
+          "created": "2017-10-27T13:55:25.729Z",
+          "updated": "2017-10-27T13:55:25.729Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Separated",
+          "created": "2017-10-27T13:55:25.729Z",
+          "updated": "2017-10-27T13:55:25.729Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Widowed",
+          "created": "2017-10-27T13:55:25.729Z",
+          "updated": "2017-10-27T13:55:25.729Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Married-spouse-absent",
+          "created": "2017-10-27T13:55:25.729Z",
+          "updated": "2017-10-27T13:55:25.729Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Married-AF-spouse",
+          "created": "2017-10-27T13:55:25.729Z",
+          "updated": "2017-10-27T13:55:25.729Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Married-civ-spouse",
+          "created": "2017-10-27T13:55:25.729Z",
+          "updated": "2017-10-27T13:55:25.729Z",
+          "metadata": null,
+          "synonyms": [
+            
+          ]
+        }
+      ],
+      "created": "2017-10-27T00:08:17.495Z",
+      "updated": "2017-10-27T13:55:25.729Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2017-05-26"
+    }
+  },
+  "description": "I can predict your income!",
+  "dialog_nodes": [
+    {
+      "title": "age node",
+      "output": {
+        "text": {
+          "values": [
+            "Cool, what's your gender?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1509035964479",
+      "context": null,
+      "created": "2017-10-26T16:44:03.108Z",
+      "updated": "2017-10-26T18:28:26.604Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@sys-number",
+      "description": null,
+      "dialog_node": "node_10_1509036260402",
+      "previous_sibling": null
+    },
+    {
+      "title": "occupation",
+      "output": {
+        "text": {
+          "values": [
+            "Great, how many hours do you work in a week?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1509045010340",
+      "context": null,
+      "created": "2017-10-26T19:10:06.066Z",
+      "updated": "2017-10-27T18:55:52.172Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@occupation",
+      "description": null,
+      "dialog_node": "node_5_1509045023300",
+      "previous_sibling": null
+    },
+    {
+      "title": "country node",
+      "output": {
+        
+      },
+      "parent": "node_1_1509038113951",
+      "context": null,
+      "created": "2017-10-26T17:41:29.418Z",
+      "updated": "2017-10-26T19:08:26.589Z",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": null,
+      "conditions": "@Countries",
+      "description": null,
+      "dialog_node": "node_3_1509039706598",
+      "previous_sibling": null
+    },
+    {
+      "title": "relationship",
+      "output": {
+        "text": {
+          "values": [
+            "Okay, I'll keep that in mind! Also, what's your occupation?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1509044971789",
+      "context": null,
+      "created": "2017-10-26T19:09:53.095Z",
+      "updated": "2017-10-27T18:55:41.309Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@relationship",
+      "description": null,
+      "dialog_node": "node_4_1509045010340",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        
+      },
+      "parent": "node_1_1509044931310",
+      "context": null,
+      "created": "2017-10-27T13:15:18.337Z",
+      "updated": "2017-10-27T13:15:18.337Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_3_1509110133563",
+      "previous_sibling": "node_2_1509110122687"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Thanks for all this info - I will use this information to calculate your salary, and send you the results! Have a nice day!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1509044931310",
+      "context": null,
+      "created": "2017-10-27T13:15:09.162Z",
+      "updated": "2017-10-27T19:02:29.120Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_2_1509110122687",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "I like it, what's your marital status?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1509041030869",
+      "context": null,
+      "created": "2017-10-27T13:29:54.218Z",
+      "updated": "2017-10-27T18:55:28.655Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@race",
+      "description": null,
+      "dialog_node": "node_1_1509111009214",
+      "previous_sibling": "node_3_1509044971789"
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "That's interesting....for now i'm categorizing you as \"other\". What's your marital status ?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1509041030869",
+      "context": null,
+      "created": "2017-10-27T13:30:01.444Z",
+      "updated": "2017-10-27T13:35:02.325Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_2_1509111014667",
+      "previous_sibling": "node_1_1509111009214"
+    },
+    {
+      "title": "marital-status node",
+      "output": {
+        "text": {
+          "values": [
+            "Great, what's your relationship status?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1509041030869",
+      "context": null,
+      "created": "2017-10-26T19:09:14.545Z",
+      "updated": "2017-10-27T13:57:06.365Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@marital-status",
+      "description": null,
+      "dialog_node": "node_3_1509044971789",
+      "previous_sibling": null
+    },
+    {
+      "title": "gender node",
+      "output": {
+        "text": {
+          "values": [
+            "How about your native country?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1509036260402",
+      "context": null,
+      "created": "2017-10-26T17:14:56.681Z",
+      "updated": "2017-10-26T18:08:50.001Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@gender",
+      "description": null,
+      "dialog_node": "node_1_1509038113951",
+      "previous_sibling": null
+    },
+    {
+      "title": "hours-per-week",
+      "output": {
+        "text": {
+          "values": [
+            "That's a good amount of hours to work. What's your work classified as? You can say \"Federal-gov\" or \"Private\"."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1509045023300",
+      "context": null,
+      "created": "2017-10-26T19:10:36.548Z",
+      "updated": "2017-10-27T18:56:33.784Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@sys-number",
+      "description": null,
+      "dialog_node": "node_8_1509045053722",
+      "previous_sibling": null
+    },
+    {
+      "title": "capital gain",
+      "output": {
+        "text": {
+          "values": [
+            "Cool, what's your capital loss?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1509045034558",
+      "context": null,
+      "created": "2017-10-26T19:11:39.800Z",
+      "updated": "2017-10-27T18:57:44.787Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@sys-number",
+      "description": null,
+      "dialog_node": "node_11_1509045117054",
+      "previous_sibling": null
+    },
+    {
+      "title": "work class",
+      "output": {
+        "text": {
+          "values": [
+            "Great class to work in. Have you had any capital gains this year?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1509045053722",
+      "context": null,
+      "created": "2017-10-26T19:10:17.327Z",
+      "updated": "2017-10-27T18:57:31.935Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@workclass",
+      "description": null,
+      "dialog_node": "node_6_1509045034558",
+      "previous_sibling": null
+    },
+    {
+      "title": "names node",
+      "output": {
+        "text": {
+          "values": [
+            "Nice name! How old are you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Welcome",
+      "context": null,
+      "created": "2017-10-26T16:39:07.191Z",
+      "updated": "2017-10-27T16:33:03.626Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@names",
+      "description": null,
+      "dialog_node": "node_8_1509035964479",
+      "previous_sibling": null
+    },
+    {
+      "title": "capital loss",
+      "output": {
+        "text": {
+          "values": [
+            "What's your education? You can say \"Graduate\" or \"11th\"."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1509045117054",
+      "context": null,
+      "created": "2017-10-26T19:11:52.473Z",
+      "updated": "2017-10-27T18:58:00.706Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "@sys-number",
+      "description": null,
+      "dialog_node": "node_12_1509045129728",
+      "previous_sibling": null
+    },
+    {
+      "title": "education node",
+      "output": {
+        
+      },
+      "parent": "node_12_1509045129728",
+      "context": null,
+      "created": "2017-10-26T19:08:34.056Z",
+      "updated": "2017-10-27T13:37:40.275Z",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": null,
+      "conditions": "@education",
+      "description": null,
+      "dialog_node": "node_1_1509044931310",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Your country is amazing, what's your ethnicity?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1509039706598",
+      "context": null,
+      "created": "2017-10-26T18:09:47.233Z",
+      "updated": "2017-10-27T18:55:06.711Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "",
+      "description": null,
+      "dialog_node": "node_5_1509041404500",
+      "previous_sibling": "node_4_1509041030869"
+    },
+    {
+      "title": "Race node",
+      "output": {
+        
+      },
+      "parent": "node_3_1509039706598",
+      "context": null,
+      "created": "2017-10-26T18:03:33.781Z",
+      "updated": "2017-10-27T13:29:59.838Z",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": null,
+      "conditions": "@race",
+      "description": null,
+      "dialog_node": "node_4_1509041030869",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand. You can try rephrasing.",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Anything else",
+      "context": null,
+      "created": "2017-10-27T14:04:22.173Z",
+      "updated": "2017-10-27T14:04:31.761Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_3_1509113077316",
+      "previous_sibling": null
+    },
+    {
+      "title": "Anything else",
+      "output": {
+        
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-10-26T15:40:17.209Z",
+      "updated": "2017-10-27T14:06:49.149Z",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, I'm Income Psychic, whats your name?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-10-26T15:40:17.209Z",
+      "updated": "2017-10-27T13:28:19.800Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": "#hello",
+      "description": null,
+      "dialog_node": "Welcome",
+      "previous_sibling": null
+    }
+  ],
+  "workspace_id": "609321dd-b8e6-4cc8-934c-d3e7d1076f6a",
+  "counterexamples": [
+    {
+      "text": "female",
+      "created": "2017-10-26T17:51:58.106Z",
+      "updated": "2017-10-26T17:51:58.106Z"
+    }
+  ],
+  "learning_opt_out": false
+}
